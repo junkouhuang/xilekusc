@@ -1,0 +1,23 @@
+/*ºóÌ¨*/
+.page-container  .mt-21,
+.page-container  .mt-23 {width:395px;float:left;margin-top:33px;height:400px;overflow:auto;}
+.page-container  .mt-24 {width:870px;float:left;margin-top:33px;height:400px;overflow:auto;}
+.page-container  .mt-22 {width:50px;float:left;margin-top: 75px;}    
+.page-container  .mt-22 input {margin: 0 auto;display: block;width: 30px;height: 38px;background-color: #efebeb;margin-bottom: 20px;line-height:38px;text-align:center;}
+.page-container  .mt-21  .store li  {float:left;display:inline-block;width: 69px;height: 35px;border:1px solid  #efebeb;text-align:center;line-height:35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.page-container  .mt-21  .store .on  {background-color:#d8d4d4;}
+.page-container  .mt-21  .store  .checkbox,
+.page-container  .mt-23  .store  .checkbox {width:40px;}
+.page-container  .mt-24  .store li  {float:left;display:inline-block;width: 164px;height: 35px;border:1px solid  #efebeb;text-align:center;line-height:35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.page-container  .mt-23  .store li  {float:left;display:inline-block;width: 62px;height: 35px;border:1px solid  #efebeb;text-align:center;line-height:35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.page-container  .mt-21  .store  .name,
+.page-container  .mt-23  .store  .name {width:120px;}
+.page-container  .mt-23>.store {margin-top:10px;}
+.page-container .mt-25 {width: 1200px;float: left;margin-top: 33px;height: 400px;overflow: auto;}
+.switchable .on {background-color: #f5fafe;}
+.switchable  .text-c {background-color: #efebeb;}
+.row {margin:0;padding:0;margin-bottom: 10px;}
+.row .uploader-list-container {overflow:hidden;}
+.form .row { margin-top: 0px; }
+.formControls { position: relative;margin: 0 auto;left: 125px; top: 30px;max-height: 498px;overflow: auto;}
+.root {position: relative; top: 45px;}

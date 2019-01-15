@@ -1,0 +1,32 @@
+ .minlogin {width: 407px; height: 351px;}
+ .minlogin .center {width: 100%;height: 100%;background-color: #fff;}
+ .minlogin .center .showCode { display: none; text-align:center; margin: 18px 18px 30px 18px;  }
+ .minlogin .center .login_tab {height:50px;}
+ .minlogin .center .sign { display: inline-block; top: 62px;  position: absolute; left: 10px; padding-left: 2px; color:red; visibility: hidden;}
+ .minlogin .center .J_Message {width: 272px; height: 25px; line-height: 25px; display: inline-block; margin: 5px 11px; visibility: hidden; font-size: 12px; color: red; font-weight: bold; padding-left: 20px;}
+ .minlogin .center .login_tab .lo_mod,
+ .minlogin .center .login_tab .eb_mod {line-height: 50px; display: inline-block; float: left; width: 50%; text-align: center; font-weight: 700; font-style: normal; font-size: 20px; color: #666666;}
+ .minlogin .center .login_tab .tab_on {  color: #333;  border-bottom: 2px solid #333;}
+ .minlogin .center .item-fore1,
+ .minlogin .center .item-fore2 {width: 293px;height: 40px;margin: 0 auto 15px;}
+ .minlogin .center .item-fore3 {width: 300px;height: 40px;margin: 25px auto;}
+ .minlogin .center .item-fore3  .forgetpwdicon {padding: 0 0 0 3px; font-size: 14px; color: #333;}
+ .minlogin .center .item-fore3  .forgetpwdicon:hover {color:#000;}
+ .minlogin .center .item-fore3  .forgetpwdtxt {position: relative; bottom: 1px;   color: #333;}
+ .minlogin .center .item-fore1 input,
+ .minlogin .center .item-fore2 input,
+ .minlogin .center .item-fore3 input {width: 100%;height: 100%;border: 1px solid #bdbdbd;text-indent: 10px;}
+ .minlogin .center .item-fore3 #subLogin{background-color: #333;border-radius: 6px;color: #fff;font-size: 16px; text-indent: 0px; outline: none; display: block; text-align: center; height: 36px; line-height: 36px;}
+ .minlogin .center .item-fore3 input:hover {background-color: #000;}
+ .minlogin .center .ot_btn, .minlogin .center .regist-link  {height: 70px; text-align: left; float: left;  line-height: 70px;}
+ .minlogin .center .ot_btn {width: 68%;}
+ .minlogin .center .regist-link {  width: 32%;}
+ .minlogin .center .ot_btn .forqq {display: inline-block; text-align: left; font-size: 12px; width: 45%;  padding-left: 17px;    float: left;}
+ .minlogin .center .ot_btn .forwechat {display: inline-block; text-align: left; font-size: 12px; width: 45%;   float: left;}
+ .minlogin .center .ot_btn li img{ position: relative; top: -2px; right: 1px;}
+ .minlogin .center .regist-link .toRegitser{ padding: 10px 0px 10px 10px;position: relative; top: 15px; right: 5px;  color: #333;}
+ .minlogin .center .regist-link .toRegisterTxt{position: relative; right: -4px;font-style: normal; font-size: 12px; bottom: 5px; color: #333;}
+/* 淡入淡出提示 */
+.reder{position: absolute;left: 50%;top: 50%;width:90px;height:54px;margin-left:-100px;margin-top:-50px; padding: 10px; background: #333;  color: #fff; margin-top:-150px; margin-left:-45px;opacity:0; font-size: 16px; line-height: 34px;}
+    
+

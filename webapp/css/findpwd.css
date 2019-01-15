@@ -1,0 +1,26 @@
+/*主体*/
+.findpwd_wrap {max-width:1920px;min-width:1200px;}
+.findpwd_wrap .content-layout {width:1200px;margin:70px auto;}
+.findpwd_wrap .content-layout .maincenter {width:900px;height:500px;background-color:#fff;margin: 0 auto;}
+.findpwd_wrap .content-layout .maincenter  .findpwd{display:inline-block;margin: 0; color: #333; position: relative;  zoom: 1;  font-size: 16px;  top:20px;  left:20px;}
+.findpwd_wrap .content-layout .maincenter  .findpwd i {  right: 10px;    top: 2px;  font-weight: bold;}
+.findpwd_wrap .content-layout .maincenter  .step_box { margin: 60px auto;  width: 650px;  height: 62px;  border-bottom: 1px solid #ccc;}
+.findpwd_wrap .content-layout .maincenter  .step_box  .active { border-bottom: 2px solid #b6c532; font-size: 20px; font-weight: bold;}
+.findpwd_wrap .content-layout .maincenter  .step_box  li {float: left; display: inline-block; background: #fff; margin: 11px 10px;width: 196px;height: 50px;text-align: center;line-height: 40px;font-size: 16px;}
+.findpwd_wrap .content-layout .maincenter  .step_box .show { border-bottom: 1px solid #333;}
+.findpwd_wrap .content-layout .maincenter  .ui-item {width: 650px; margin: 0 auto;  margin-left: 318px;}
+.findpwd_wrap .content-layout .maincenter  .ui-item  i {  margin-left: 10px; color:red; display:none; font-size: 13px;}
+.findpwd_wrap .content-layout .maincenter  .ui-item1{width: 650px; margin: 0 auto; margin-left: 8px;}
+.findpwd_wrap .content-layout .maincenter  .ui-item2{width: 650px; margin: 0 auto; margin-left: 8px;}
+.findpwd_wrap .content-layout .maincenter  .ui-item .lg {color:#87BD34;}
+.findpwd_wrap .content-layout .maincenter  .ui-item li {  display:none;}
+.findpwd_wrap .content-layout .maincenter  .ui-item .open { display:inline-block;}
+.findpwd_wrap .content-layout .maincenter  .ui-item input {width:250px;height:36px; text-indent: 4px; margin:10px 0; display: inline-block;}
+.findpwd_wrap .content-layout .maincenter  .ui-item  .tips {  display: none;color: red;  margin-left: 3px; letter-spacing: 1px;font-size: 13px;}
+.findpwd_wrap .content-layout .maincenter  .subbox {  width: 100px;  height: 70px;  margin: 0 auto;text-align: center;}
+.findpwd_wrap .content-layout .maincenter  .subbox  #next { background-color: #333;  border: none;  color: #fff;  width: 92px;  height: 33px; font-size: 15px;letter-spacing: 6px;}
+.findpwd_wrap .content-layout .maincenter  .subbox  #next:hover {background-color: #000;}
+.findpwd_wrap .content-layout .maincenter  .subbox .toLogin {background-color: #333;  border: none;  color: #fff;  width: 100px;  height: 33px;display:none;}
+.findpwd_wrap .content-layout .maincenter  .subbox .toLogin {background-color: #000; font-size: 15px; letter-spacing: 6px;}
+.findpwd_wrap .content-layout .maincenter  .subbox  button{ width: 122px; height: 36px; line-height: 36px; font-size: 14px; text-align: center; color: #fff; border: none; background: #b6c532;}
+.findpwd_wrap .content-layout .maincenter  .ui-item .retget {margin-left: 10px;}     

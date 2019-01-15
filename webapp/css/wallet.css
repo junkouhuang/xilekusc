@@ -1,0 +1,38 @@
+
+em, i, u { font-style: normal; }
+
+.J_wallet { width: 1100px; margin: 0 auto; }
+
+.J_wallet .rich-title { padding-top: 25px; color: #999; font-size: 12px; text-align: right; }
+.J_wallet .rich-assets { padding-left: 30px; }
+.J_wallet .rich-assets table { width: 100%; color: #474e5d; }
+.J_wallet .JDrich .rich-assets td { height: 140px; }
+.J_wallet .rich-assets td { height: 140px; }
+.J_wallet .rich-assets .td1-title { color: #474e5d; font-weight: 700; font-size: 16px; }
+.J_wallet .rich-assets .td1-price { font-weight: 700; font-size: 24px; font-family: Tahoma; line-height: 1.2; }
+.J_wallet .rich-assets .td1-p-num { font-size: 35px; font-style: normal; }
+.J_wallet .rich-assets .td1-p-btn { color: #e4393c; font-size: 14px;}
+.J_wallet .rich-assets .td2 { font-size: 12px; line-height: 26px; }
+.J_wallet .rich-assets .td2-ico1 { background-position: 0 -338px; height: 14px; width: 15px; }
+.J_wallet .rich-assets .td2-num { font-weight: 700;  font-size: 16px;}
+.J_wallet .rich-assets .td3 { font-size: 12px; text-align: center; }
+.J_wallet .rich-assets .td3-btn { display: inline-block; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; width: 218px; height: 42px; margin-bottom: 7px; background-color: #e4393c; color: #fff; font-size: 16px; text-align: center; line-height: 42px; }
+.font-red { color: #e4393c; }
+.J_wallet .rich-assets .td3-num { color: #e4393c; font-weight: 700; font-size: 16px; }
+.J_wallet .rich-assets .td2-ico1, .J_wallet .rich-assets .td2-ico2, .J_wallet .rich-assets .td2-ico3 { display: inline-block; margin-right: 10px; vertical-align: middle;  background-repeat: no-repeat;overflow: hidden; }
+.font-link { color: #0dacfe;}
+
+.J_wallet  .d-table-bg tr td {  width: 200px; height: 27px; font-size: 14px;} 
+.J_wallet .rich-tab { position: relative; margin-top: 20px; }
+.J_wallet .r-t-record { position: absolute; top: 0; right: 0; font-size: 12px; line-height: 34px; z-index: 11; }
+.J_wallet .ui-select-listBox { position: relative; zoom: 1; z-index: 10; }
+.J_wallet .ui-select-listBox  .ui-select-listBox-list--now,
+.J_wallet .ui-select-listBox   .ui-select-listBox-list--now .ui-select2-text { color: #e4393c; }
+.J_wallet .ui-select-listBox-l-line { position: absolute;top: 0; right: 0;color: #ced4e0; font-size: 12px; }
+.J_wallet  .ui-select-listBox-list { float: left; position: relative; width: 170px;  height: 34px;  color: #474e5d;  font-weight: 700; text-align: center;line-height: 34px; z-index: 10; cursor: pointer; }
+.J_wallet  .ui-select-listBox-l-line {  position: absolute; top: 0; right: 0;  color: #ced4e0; font-size: 12px; }
+.J_wallet  .ui-select-listBox-line {  position: relative; height: 2px; overflow: hidden; background-color: #ced4e0; }
+.J_wallet  .ui-select-listBox-l-red { left: -1px; width: 169px; position: absolute;  top: 0; width: 0; height: 100%; background-color: #e4393c; }
+
+.J_wallet .rich-detail .d-none { padding: 100px 0; text-align: center;}
+.J_wallet .rich-detail .d-tip { margin-top: 10px;color: #a5a5a5;  font-size: 12px; }

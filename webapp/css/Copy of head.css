@@ -1,0 +1,15 @@
+/*商城头部*/
+.header {max-width: 1920px;min-width: 1200px;height: 50px; background-color: #000000;}
+.header .wrap {width: 1200px;height: 100%;margin: 0 auto;position: relative;}
+.header .wrap .logo {width:115px;height:37px;display: inline-block;margin:6px 10px 0 0;background: url(../images/git1.png) center 0 no-repeat;box-shadow: 4px 3px 17px #545454;color: #fff;font-size: 13px;text-align: center;line-height: 37px;border: 1px solid #fff;}
+.header .wrap .s1 {color:#ffffff;font-size: 14px;line-height: 48px;float: right; position:relative;}
+.header .wrap .outLogin {display:none;}
+.header .wrap .s1 .down {top: 9px;left: 0; border-width: 5px 5px 0; border-style: solid dashed dashed ; border-color: #888 transparent transparent;border-radius: 2px; position: relative; width: 0; height: 0; line-height: 0;}
+.header .wrap  .searchFrm {float:right;margin-top: 13px;}
+.header .wrap  .searchFrm input {text-indent: 3px;}    
+.header .wrap  .searchFrm  a {width: 26px;line-height: 41px;position: absolute;right: 0px; top: 4px;}
+.shopping-cart {float: right;margin:0  20 0 0px;}
+.login {float: right;margin:0 0 0 20px;}
+.header .wrap .myorder,.register,.home,.register,.cart,.ziqian{float: right;margin:0 20px;}
+.loginin {display:none;}
+.loginout {display:none;}

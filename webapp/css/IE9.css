@@ -1,0 +1,13 @@
+/**login.jsp**/
+.login_wrap .login .right .item-fore3 #subLogin {
+    background-color: red;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    text-indent: 0px;
+    outline: none;
+    display: block;
+    text-align: center;
+    height: 36px;
+    line-height: 36px;
+}

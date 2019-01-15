@@ -1,0 +1,25 @@
+/**login.jsp**/
+$(function(){
+	$("#username").val("用户名");
+	$("#password").val("密码");
+	$("#password").prop("type","text");//将type显示为text
+	//获取点击事件
+	$("#username").bind("click",function(){
+		$("#username").val("");
+		if($("#password").val()==""){
+			$("#password").val("密码");
+			$("#password").prop("type","text");//将type显示为text
+		}
+	});
+	$("#password").bind("click",function(){
+		$("#password").val("");
+		$("#password").prop("type","password");//将type显示为password
+		if($("#username").val()==""){
+			$("#username").val("用户名");
+		}
+	});
+	//获取键盘按下事件事件
+	$("#password").bind("keydown",function(){
+		$("#password").prop("type","password");//将type显示为password
+	});
+});

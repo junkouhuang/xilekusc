@@ -1,0 +1,20 @@
+ @charset "utf-8";
+/*section*/
+.paySuccess {max-width: 1920px; min-width: 1200px;width:1200px;  margin: 0 auto  100px ; width: 950px ; }
+.paySuccess  a { color: #2d8cba; margin: 0 5px; }
+
+#J_AmountList h2 {height: 60px; line-height: 60px; padding: 0 0 0 76px; /* background: url(//img.alicdn.com/tps/TB10aO.KFXXXXcTXpXXXXXXXXXX-31-32.png) 30px 15px no-repeat #ecffdc;  */}
+
+.take-delivery .summary-status {  padding: 0 0 0 76px;margin: 10px 0; color: #333; }
+.take-delivery ul {padding: 5px 0 0; }
+.take-delivery li { line-height: 28px; padding-left: 10px; background: url(//img.alicdn.com/tps/i4/T1rDIvXcpfXXaaD1Dr-3-3.png) 0 13px no-repeat; }
+
+#J_ButtonList { margin: 13px 0 25px 76px; }
+
+#J_RemindList { margin: 0 30px; padding: 21px 46px 10px;  border-top: 1px dotted #D4D4D4; }
+#J_RemindList li.alert { background: url(//img.alicdn.com/tps/TB1LF0CKFXXXXcAXFXXXXXXXXXX-21-20.png) no-repeat;  position: relative; left: -28px; padding: 0; padding-left: 28px;}
+#J_RemindList li a {margin-left: 0; }
+  
+
+   
+  

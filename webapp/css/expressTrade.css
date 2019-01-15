@@ -1,0 +1,7 @@
+/*mycar_wrap*/
+.expressTrade {max-width:1920px;min-width:1200px;    margin-bottom: 100px;}
+.expressTrade  form { width: 1200px;height: 600px; margin: 10px auto; background: #f5f2f2;} 
+.expressTrade  .fn-w-470 { width: 470px; margin: 14px auto;}
+.expressTrade .ui-fm-label {  float: left;  width: 170px;  margin-left: -170px;  padding-top: 3px;  text-align: right;  font-size: 14px; }
+.expressTrade input,.expressTrade select { height:26px; }
+.expressTrade .sub{ width: 130px; background: #ff9400; border: none;}

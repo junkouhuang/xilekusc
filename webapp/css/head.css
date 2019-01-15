@@ -1,0 +1,88 @@
+/*商城头部*/
+.header-banner { background: #4d6673;text-align: center;  height: 32px;  line-height: 32px;  overflow: hidden;   width: 100%;  z-index: 99; color: #fff;}
+.header-banner  .animation { animation:myfirst 1s;-moz-animation:myfirst 1s; /* Firefox */-webkit-animation:myfirst 1s; /* Safari and Chrome */-o-animation:myfirst 1s; /* Opera */}
+@keyframes myfirst
+{
+from {margin-top:110px;}
+to {margin-top:10px;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {margin-top:110px;}
+to {margin-top:10px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {margin-top:110px;}
+to {margin-top:10px;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {margin-top:110px;}
+to {margin-top:10px;}
+}
+.header-nav {height: 32px;  line-height: 32px;   width: 1200px; margin: 0 auto; }
+.header-nav .myaccount {float:right;margin-left: 20px; position: relative;}
+.header-nav .myaccount  span {font-style: normal; font-weight: 400; font-size: 14px;cursor: pointer;    font-family: "HelveticaNeueETW01-55Rg";}
+.header-nav .myaccount  .menu-list { position: absolute;right: 0px;background: #fff; padding: 10px 20px 20px 20px;width: 160px; z-index: 3; display: none; left: -10px; -webkit-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.1);}    
+.header-nav .myaccount  .menu-list  li {cursor: pointer;height: 22px;}
+.header-nav .myaccount  .menu-list  li a {color: #000;}
+.header-nav .myaccount  .menu-list  li a:hover {color: #999;}
+.header-nav .myaccount  .menu-list  li:hover {color: #999;}
+.header-nav .search i {color: rgb(0, 0, 0); font-size: 16px;}
+.header-nav .search {float:right;padding-top: 1px; cursor: pointer;}
+.stickyheader{ height: 32px; line-height: 32px;width: 1200px;margin: 1px auto;text-align: center;font-size: 27px;}
+.simpleSearch{ height: 59px; overflow: hidden;width: 1200px;margin: 154px auto 0;text-align: center;font-size: 27px;display: none;}
+.simpleSearch .q { width: 600px;  border: 0; border-bottom: 1px solid #1e1e1e;  font-size: 16px; color: #1e1e1e; font-family: "HelveticaNeueETW01-55Rg"; display: inline-block; text-align: center; outline: 0;}
+.simpleSearch i {cursor: pointer;}
+/*在最大为1366的屏幕里,这里的样式才生效*/
+@media (max-width: 1366px)  {
+	.container { max-width: 1000px;   }
+	.nav-list li a { font-size:14px;}
+	.stickyheader {font-size: 24px;}
+	.header-nav .myaccount  span{font-size:12px;}
+	.header-banner{ height: 29px;}
+    .header-nav .search i {font-size: 12px;}
+}
+/*在1366和1440像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1366px) and (max-width: 1440px) {
+	.container { max-width: 1000px;   }
+	.nav-list li a { font-size:13px;}
+	.stickyheader {font-size: 25px;}
+	.header-banner{ height: 22px; line-height: 22px;}
+	.header-nav .myaccount  span{font-size:12px;}
+	   #container {margin: 30px auto;}
+	.header-nav .search i {font-size: 14px;}
+	.header-nav { height: 26px;line-height: 26px;}
+	.header-nav .myaccount .menu-list {width: 122px;}
+	.stickyheader {height: 30px;line-height: 30px;};
+}
+/*在1440和1600像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1440px) and (max-width: 1600px) {
+	.container { max-width: 1100px;   }
+	.nav-list li a { font-size:16px;}
+    .stickyheader {font-size: 25px;}
+   .header-banner{ height: 30px;}
+   .header-nav .search i {font-size: 14px;}
+   #container {margin: 45px auto;}
+   .header-nav .myaccount  span{font-size:12px;}
+    .header-nav .myaccount  span{font-size:13px;}
+	.header-nav { height: 26px;line-height: 26px;}
+	.header-nav .myaccount .menu-list {width: 122px;}
+}
+/*在1600和1680像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1600px) and (max-width: 1680px) {
+    .container { max-width: 1200px;height:600px;   }
+	.nav-list li { font-size:17px;}
+	.nav-list li a { color: #000; font-size: 17px;}
+	.stickyheader {font-size: 26px;}
+	.header-nav .myaccount  span{font-size:13px;}
+	.header-banner{ height: 31px;}
+	.header-nav .search i {font-size: 15px;}
+/*在1680和1920像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1680px) and (max-width: 1920px) {
+
+}

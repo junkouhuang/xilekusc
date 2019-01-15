@@ -1,0 +1,34 @@
+/*J_recharge*/
+.J_recharge {max-width:1920px;min-width:1200px;    margin-bottom: 100px; width: 1200px; margin: 0 auto;}
+.J_recharge .o-mt  h2{ background: #f3f3f3; height: 66px; font: 20px/35px \5FAE\8F6F\96C5\9ED1; padding-left: 20px; color: #333; line-height: 66px;}
+
+.J_recharge  .m { margin-bottom: 10px; overflow: hidden; zoom: 1;}
+.J_recharge  .m .form { padding: 20px 50px 0 80px; }
+.J_recharge .btn-next{  background: #333;color: #fff; padding: 8px 31px;  border: none; padding: 8px 23px; border: none; letter-spacing: 5px;}
+.J_recharge  .m  .form .item{ margin-bottom: 10px;}
+.J_recharge  .fl  b{ position:relative; top:9px; margin-left: 18px;font-weight: normal;}
+.J_recharge  .m  .form .item .label { width: 75px; font-size: 14px;  float: left; text-align: right; color: #666666; margin-top: 5px; font-weight: normal;}
+.J_recharge  .m  .form .item    .f1 { font-size: 14px;width: 770px; }
+.J_recharge  .m  .form .item      .clr { display: block; overflow: hidden; clear: both; height: 0; line-height: 0; font-size: 0; }
+
+
+.J_recharge  .m  .form .item    .f1 .text { font-weight: bold; font-size: 16px; color: #cc0000; text-align: center; width: 93px; font-family: Arial; }
+.J_recharge  .m  .form .item   .f1  .label { line-height: 25px; margin-right: 5px; font-size: 14px;}
+.J_recharge  .m  .form .item    .f1  .msg-text,.J_recharge  .m  .form .item   .f1   .msg-error {font-size: 12px; color: #999999; float: left; line-height: 25px; }
+.J_recharge  .m  .form .item    .f1 .msg-text {color: #999999; }
+.J_recharge  .m  .form .item    .f1 .msg-error { color: #e4393c; }
+.J_recharge  .m  .form .item .label  .clear,.J_recharge  .m  .form .item .label  .clr { display: block; overflow: hidden; clear: both; height: 0; line-height: 0; font-size: 0; }
+.J_recharge  .m  .form .item .label   .clr { display: block;overflow: hidden;clear: both;height: 0;line-height: 0;font-size: 0; }
+
+.J_recharge   .m1 { margin-left: 80px; margin-right: 80px; padding: 15px 30px; margin-bottom: 20px; border-width: 2px; border: 1px solid #edd28b;background: #fff4df;}
+.J_recharge   .m1 .mt { margin-bottom: 5px; }
+.J_recharge   .m1 .mth3 {font-size: 12px; }
+.J_recharge   .m1 .mc {overflow: hidden;zoom: 1; }
+
+.J_recharge .canClick{ color: #888; background: #e2e0de;border-radius: 3px;}
+.J_recharge .canClick:hover{ color: #888; background: #e2e0de;}
+
+
+.J_recharge  .msg-text { margin: 17px 9px;  color: #ceb1b1;}
+.J_recharge  .meassage {position: relative;top: 11px;color: red; }
+.J_recharge  .meassage i {margin-right: 4px; }

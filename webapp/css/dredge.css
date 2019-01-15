@@ -1,0 +1,19 @@
+/*J_dredge*/
+.J_dredge {max-width:1920px;min-width:1200px;    margin-bottom: 100px; width: 1200px; margin: 0 auto;}
+.J_dredge .operation-title { height: 83px;  line-height: 83px; padding: 0 20px; position: relative; }
+.J_dredge .operation-title .title-inset-area { border-bottom: 1px solid #f0f0f0; height: 83px;    font-size: 19px;}
+.J_dredge .white-box .operation-title .title-inset-area .title-text { font-size: 24px; color: #323232; float: left; }
+.J_dredge  .operation-con { width: 1160px; min-height: 360px; padding-bottom: 60px; margin: auto; padding-top: 30px; }
+.J_dredge  .operation-con  .open-double-area { width: 1073px; margin: 30px auto 0; text-align: center; }
+.J_dredge  .operation-con  .open-double-area  #submitForm {float:left;}
+.J_dredge  .operation-con  .open-double-area table { margin: 0 auto; }
+.J_dredge  .operation-con  .open-double-area table tr{ margin: 9px; display: block; }
+.J_dredge  .operation-con  .open-double-area table td:first-child{width: 130px; text-align: right;height: 30px;}
+.J_dredge  .operation-con  .open-double-area table td{width: 310px; text-align: right;height: 30px;}
+.J_dredge  .operation-con  .open-double-area table td input,.J_dredge  .operation-con  .open-double-area table td select {width: 280px;height: 28px;padding: 2px;}
+.J_dredge  .operation-con  .open-double-area table td  #oPenZiqian {background: #4d6673;height: 30px; line-height: 19px;width: 80px;}
+.J_dredge  .operation-con  .open-double-area .open-xjk-title { font-size: 22px; color: #323232; padding-top: 20px; text-align: center; padding-bottom: 15px; }
+.J_dredge  .operation-con  .open-double-area  button {padding:1px 14px ;}
+.J_dredge  .operation-con  .open-double-area .create-wallet { float: left; width: 614px;padding: 0 50px 0 105px;}
+.J_dredge  .operation-con  .open-double-area .create-wallet  ul li:first-child {font-size:20px;}
+.J_dredge  .operation-con  .open-double-area .create-wallet  li {text-align:left;padding: 5px 2px;}

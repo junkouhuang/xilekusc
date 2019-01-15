@@ -1,0 +1,7 @@
+/*�̳�β��*/
+.footer {max-width:1920px;min-width:1200px;height: 40px;background-color:#1a1a1a;position: fixed;right: 0;left: 0;bottom: 0; ;}
+.footer  .tb-footer {width:1200px;height:100%;margin: 0 auto;background-color: #1a1a1a;}
+.footer  .tb-footer  p {text-align: center;font-size: 12px;color: #fff;margin-top:10px;}
+.footer  .tb-footer  ul {text-align:center;}
+.footer  .tb-footer  ul li {    margin: 5px 29px;display: inline-block;font-size: 14px;}
+.footer  .tb-footer  ul li a {color: #fff;font-size:14px;}

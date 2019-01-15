@@ -1,0 +1,12 @@
+@charset "utf-8"";
+html, body, div, h1, span, header, img, button, ul,ol,li,a{ margin: 0; padding: 0;font-size:12px;}
+ul,li,ol {margin:0;padding:0;}
+input[type="submit"] {color: #fff; font-size: 15px;}
+a {text-decoration: none;cursor: pointer;}
+a:hover{text-decoration: none;cursor: pointer;}
+ul li {list-style: none;}
+body{background-color:#fff;}
+html, body, div, h1, span, header, img, button, ul,ol,li,a{ margin: 0; padding: 0; font-size:12px;}
+/* 当第一页时，点击图标不可点 */
+ .allow { color:#ccc!important;;}
+ .allow:hover { cursor: not-allowed; color:#ccc;}

@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+.container { background: none repeat scroll 0 0 #fff; background: #dddddb; left: 0; margin: auto; max-width: 1200px; position: relative; transition: left 0.2s ease-in; margin-top: 47px;    }
+.container  img { width: 100%;height: 100%; }
+.nav-list { height: 32px; line-height: 32px; overflow: hidden;  width: 1200px; margin: 0 auto;  text-align: center; }
+.nav-list  ul {display: inline-block;}
+.nav-list li {  float: left;width: 100px;font-size: 18px; cursor: pointer;}
+.nav-list li a{ color:#000;font-size: 18px; cursor: pointer;}
+.nav-list li a:hover { color:#8a6c6c;}
+
+
+#container canvas { position: absolute; backface-visibility: hidden; -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; }
+#container img { position: absolute; -webkit-transition: opacity .3s; transition: opacity .3s; }
+#container { position: relative; max-width: 1300px;margin:56px auto; height:680px;overflow:hidden;}
+
+
+.aside {width:25px;position: fixed;right:0px;top:0;   z-index: 20;  margin-top:0;  background-color: #5d5757; height:100%;}
+.aside .asidebar {width:100%;height:190px;position:fixed;top:50%;margin-top:-160px;}
+.aside #service,.aside #wallet {width: 25px; height: 73px;  display: block;  text-align: center; line-height: 37px; color: #fff;position: relative;}
+.aside #back2top {width: 25px; height: 65px;  display: block;  text-align: center; line-height: 37px; color: #fff;position: relative;position: absolute; bottom: 0;}
+.aside #back2top  span {   font-size: 12px; position: absolute; top: 30px;right: 3px; width: 22px; display: block; line-height: 19px;}
+.aside #service:hover,.aside #wallet:hover,#back2top:hover{color:#fff;background-color:#b61d1d;}
+.aside #wallet span,.aside #service span { font-size: 12px;position: absolute;top: 27px; right: 1px;  width: 22px;display: block;line-height: 19px;}
+.aside .service{border-bottom: 1px solid rgba(221,221,221,.6);width: 19px;display: block; position: absolute; left: 3px;}
+.aside .wallet{border-bottom: 1px solid rgba(221,221,221,.6);width: 19px;display: block; position: absolute; left: 3px;}
+
+.aside  ._hide {border-bottom:#b61d1d;}
+
+/*在最大为1366的屏幕里,这里的样式才生效*/
+@media (max-width: 1367px)  {
+	 #container {max-width: 900px;height: 400px;;}
+	 .nav-list li a { font-size: 12px;}
+}
+/*在1366和1440像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1361px) and (max-width: 1440px) {
+	#container {max-width: 1000px;height: 430px;}
+	.nav-list li a { font-size: 15px;}
+}
+/*在1441和1583像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1441px) and (max-width: 1583px) {
+	#container {max-width: 1100px;height: 600px;}
+}
+/*在1584和1600像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1584px) and (max-width: 1600px) {
+	#container {max-width: 1100px;height: 640px;}
+}
+/*在1601和1680像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1601px) and (max-width: 1681px) {
+	#container {max-width: 1100px;height: 650px;}
+/*在1681和1920像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1681px) and (max-width: 1920px) {
+	
+}
